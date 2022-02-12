@@ -6,21 +6,16 @@ public class checkprime {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/**
-		 * only two divisors = 1 and itself
-		 * composite number
-		 * 
-		 * 
-		 */
+		
 		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int num= in.nextInt();
 		
 		
-		boolean gl = checkPrime(num);
+		boolean isPrime = checkPrime(num);
 		
-		if(gl) {
+		if(isPrime) {
 			System.out.println("It is a prime number");
 		}else {
 			System.out.println("It is a composite number");
